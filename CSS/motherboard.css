@@ -18,11 +18,14 @@ h1{
 font-weight: 400;
 }
 #PageName{
-margin: 27% 105px 0 235px;
+margin: 32% 105px 0 235px;
 font-size: 200px;
 }
 .VerticalLine{
 border-right: 20px solid;
 height: 100%;
 position: absolute;
+}
+.RightSideContainer{
+margin-left: 49%;
 }

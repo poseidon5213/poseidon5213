@@ -1,3 +1,44 @@
 html{
-background: #240016;
+background: #03022a;
+}
+#PageName{
+color: #18ffff;
+font-size: 180px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.VerticalLine{
+color: #18ffff;
+}
+#facebook{
+width: 200px;
+height: 200px;
+}
+#medium, #twitter, #email{
+width: 180px;
+height: 180px;
+}
+#twitter{
+margin-top: 100px;
+margin-left: 35%;
+margin-bottom: 8%;
+}
+
+#googleplus {
+width: 200px;
+height: 200px;
+margin-left: 5%;
+}
+.RightSideContainer{
+display: block;
+margin-left: 51%;
+}
+.row1{
+margin-top: 8%;
+}
+#medium{
+margin-left: 50%;
+}
+#email{
+margin-left: 45%;
 }
