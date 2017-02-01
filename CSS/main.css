@@ -1,0 +1,45 @@
+
+html{
+background-color: black;
+font-family: 'Oswald';
+}
+body{
+margin: 0;
+height: 947px;
+}
+a{
+text-decoration: none;
+}
+span{
+color: white;
+display: inline-block;
+font-size: 150px;
+font-weight: 400;
+padding: 325px 102.5px 400px 102.5px;
+margin: 0;
+}
+#T:hover{
+background-color: #1B1B3A;
+color: #DB095B;
+}
+#A:hover{
+background-color: #011627;
+color: #F71735;
+}
+#J:hover{
+background-color: #0B2027;
+color:#FFFF00;
+}
+#A2:hover{
+background-color: #240016;
+color:#00E676;
+}
+#I:hover{
+background-color: #03022A;
+color:#18FFFF;
+}
+#R:hover{
+color:#F717A5;
+}
+#I2{
+}

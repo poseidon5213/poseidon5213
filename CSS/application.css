@@ -1,0 +1,60 @@
+html{
+background: #240016;
+}
+.TextColor{
+color: #00E676;
+}
+#PageName{
+font-size: 180px;
+margin-left: 75px;
+margin-right: 50px;
+}
+.RightSideContainer{
+margin-left: 49%;
+}
+.ProjectInfoContainer{
+background: #512DA4;
+}
+.ProjectInfoContainer h1, h2{
+display: inline-block;
+font-size: 50px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.piDefaultInfo{
+color: #FE6F43;
+margin-right: 35px;
+}
+.piChangingInfo{
+color: white;
+font-weight: 300;
+margin-right: 140px;
+}
+#piEnd{
+margin-right: 0;
+}
+#piBegin{
+margin-left: 30px;
+}
+.VerticalLine{
+border-right-color: #00E676;
+}
+#ProjectTitle{
+color: #C25B2B;
+margin-top: 15px;
+margin-bottom: 15px;
+font-size: 80px;
+text-align: center;
+}
+#ProjectImage{
+width: 725px;
+height: 415px;
+margin-left: 15%;
+text-align: center;
+}
+#ProjectDescription{
+color: white;
+font-weight: 300;
+font-size: 30px;
+text-align: center;
+}

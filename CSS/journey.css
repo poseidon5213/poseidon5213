@@ -1,0 +1,47 @@
+html{
+background-color: #0B2027;
+}
+.TextColor{
+color: #FFFF00;
+}
+.VerticalLine{
+border-right-color: #FFFF00;
+}
+.FormContainer {
+margin-left: 200px;
+margin-top: 240px;
+}
+#year{
+color: #FFFF00;
+font-size: 200px;
+margin-left: 60%;
+margin-top: 13.7%;
+}
+#YearInput{
+background-color: transparent;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom-width: 5px;
+color: #FFFF00;
+font-size: 60px;
+font-weight: 300;
+width: 600px;
+}
+/* Styling for the Form (Chrome)  */
+::-webkit-input-placeholder{
+color:#FFFF00;
+font-family: 'Oswald';
+letter-spacing: 2px;
+text-align: center;
+}
+
+/* Firefox styling  */
+::-moz-placeholder{
+text-align: center;
+}
+#YearInfo{
+font-size: 70px;
+margin-left: 61%;
+font-weight: 300;
+}
