@@ -1,0 +1,38 @@
+html{
+background: #011627;
+}
+#PageName, .VerticalLine{
+color: #f71735;
+}
+#PageName{
+margin: 27% 50px 0 75px;
+}
+.RightSideContainer{
+margin-left: 55%;
+margin-top: 1%;
+}
+.pin{
+display: inline-block;
+font-family: 'Caveat Brush', cursive;
+padding-right: 1%;
+}
+.pin h1{
+font-size: 50px;
+margin-top: 0;
+text-align: center;
+}
+.pin h3{
+font-size: 30px;
+}
+#pin1{
+background: #FFE85A;
+}
+#pin2 {
+background: #64ACB8;
+margin-left: 5%;
+}
+#pin3 {
+background: #FF71B3;
+margin-top: 150px;
+}
+
