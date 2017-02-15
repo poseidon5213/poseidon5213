@@ -17,7 +17,7 @@ function c1clicked() {
 	pich1.innerHTML = "School";
 	pich2.innerHTML = "Chief Web Designer";
 	ProjectTitle.innerHTML = "The Vitruvian";
-	ProjectImage.src = "../Images/vitruvian.png";
+	ProjectImage.src = "../IMAGES/vitruvian.png";
 	ProjectDescription.innerHTML = "In English we formed groups and created a newspaper.<br>  "+
 									"My group's newspaper was named after our school's logo<br> "+
 									"which was influenced by Leonardo Da Vinci's work<br> "+
@@ -30,7 +30,7 @@ function c2clicked() {
 	pich1.innerHTML = "Self-Project";
 	pich2.innerHTML = "Sole-Developer";
 	ProjectTitle.innerHTML = "Scape";
-	ProjectImage.src = "../Images/scape.png";
+	ProjectImage.src = "../IMAGES/scape.png";
 	ProjectDescription.innerHTML = "My first product while learning how to use Unity and Csharp";
 	c2.className  ="circle CircleActive";
 	c1.className  ="circle CircleInactive";
