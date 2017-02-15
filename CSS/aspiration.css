@@ -14,25 +14,34 @@ margin-top: 1%;
 .pin{
 display: inline-block;
 font-family: 'Caveat Brush', cursive;
+position: absolute;
 padding-right: 1%;
 }
 .pin h1{
-font-size: 50px;
+font-size: 55px;
 margin-top: 0;
 text-align: center;
 }
 .pin h3{
-font-size: 30px;
+font-size: 35px;
 }
 #pin1{
-background: #FFE85A;
+background: #FFE85A; 
 }
 #pin2 {
 background: #64ACB8;
-margin-left: 5%;
+right: 5%;
+top: 25%;
 }
 #pin3 {
 background: #FF71B3;
-margin-top: 150px;
+top: 50%;
 }
-
+.SVGContainer{
+/*stroke: #f71735;  Only Use Once Clicked*/ 
+fill: #f71735;
+margin-left: 40%;
+margin-top: 3%;
+width: 275px;
+height: 300px;
+}

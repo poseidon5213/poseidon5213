@@ -1,3 +1,4 @@
+
 function changeText() {
 	var YearInput = document.getElementById("YearInput").value;
 	var YearInfo = document.getElementById("YearInfo");

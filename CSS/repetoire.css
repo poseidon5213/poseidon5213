@@ -1,5 +1,5 @@
 html{
-background-color: black;
+background-color: #120127;
 }
 .TextColor{
 color:#F717A5;
@@ -7,6 +7,7 @@ color:#F717A5;
 #PageName{
 margin-left: 150px;
 margin-right: 70px;
+margin-top: 27%;
 }
 .VerticalLine{
 border-right-color: #F717A5;
@@ -18,7 +19,7 @@ border: none;
 }
 progress::-webkit-progress-bar{
 border: 10px solid #F717A5;
-background: black;
+background: #120127;
 height: 100px;
 width: 425px;
 }
@@ -31,4 +32,45 @@ font-size: 75px;
 margin-left: 15%;
 margin-top: 4.5%;
 position: absolute;
+}
+.shapes{
+margin-top: 5%;
+margin-left: 40%;	
+}
+.circle{
+border: 3px #F717A5 solid;
+width: 240px;
+height: 240px;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 140px;
+}
+.triangle{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 0 50px 108px;
+border-color: transparent transparent transparent #f717a5;
+bottom: 17.5%;
+right: 40%;
+}
+ .TriangleAnimation{
+-webkit-animation: 0.5s PlayButton 1 forwards ;
+}
+
+.circle:hover{
+-webkit-animation: 2s BorderCircle 1 forwards;
+}
+/* Animations */
+@-webkit-keyframes PlayButton {
+50% { transform: rotateY(90deg);}
+100% {background: #F717A5; right: 41.75%;}
+} 
+@-webkit-keyframes BorderCircle{
+30% {border-left-color: white;}
+100% {transform: rotate(720deg); border-color : white;}
+}
+@-webkit-keyframes MusicalBars{
+10% {}
 }

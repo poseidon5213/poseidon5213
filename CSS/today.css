@@ -13,3 +13,9 @@ width: 570px;
 height:570px;
 margin-left: 15%;
 }
+/* Animations */
+@-webkit-keyframes playbutton {
+25% { transform: rotateY(-90deg);}
+50% {border:none;}	
+75% { background: #F717A5; width: 100px; height: 100px;} }
+}
