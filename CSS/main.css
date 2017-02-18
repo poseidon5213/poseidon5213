@@ -15,7 +15,7 @@ color: white;
 display: inline-block;
 font-size: 150px;
 font-weight: 400;
-padding: 325px 102.5px 400px 102.5px;
+padding: 325px 102.5px 100% 102.5px;
 margin: 0;
 }
 #T:hover{
@@ -49,6 +49,6 @@ color:#F717A5;
 	}
 	span {
 	font-size: 107px;	
-	padding: 232px 73px 285px 73px;
+	padding: 232px 73px 100% 73px;
 	}
 }
