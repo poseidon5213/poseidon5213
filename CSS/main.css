@@ -42,5 +42,13 @@ color:#18FFFF;
 background-color: #120127;
 color:#F717A5;
 }
-#I2{
+/* 720p */
+@media screen and (max-width:1376px) {
+	body {
+	height: 676px;
+	}
+	span {
+	font-size: 107px;	
+	padding: 232px 73px 285px 73px;
+	}
 }
