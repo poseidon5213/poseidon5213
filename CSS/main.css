@@ -61,7 +61,7 @@ color:#F717A5;
 	}
 }
 /* 720p */
-@media screen and (min-width:1370px) {
+@media screen and (min-width:1350px) {
 	body {
 	height: 676px;
 	}
