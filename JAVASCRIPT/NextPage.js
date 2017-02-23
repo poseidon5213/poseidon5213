@@ -2,7 +2,7 @@ window.addEventListener("keydown", ArrowKeys, false);
 nextPage = document.getElementById('Link');
 var pages = ["thesis.html","aspiration.html","journey.html","application.html",+	
 			 "information.html","repetoire.html","../index.html"];
-var x = undefined;
+var x;
 var z = window.location.href;
 console.log(z);
 
