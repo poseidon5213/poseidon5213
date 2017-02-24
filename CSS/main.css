@@ -99,15 +99,6 @@ color:#F717A5;
 	padding: 325px 102.5px 100% 102.5px;
 	}
 }
-@media screen and (min-width:1900px) {
-	body {
-	height: 947px;
-	}
-	span {
-	font-size: 150px;	
-	padding: 325px 102.5px 100% 102.5px;
-	}
-}
 @media screen and (min-width:2500px) {
 	body {
 	height: 1262px;

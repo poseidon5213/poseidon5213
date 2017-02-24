@@ -9,8 +9,8 @@ border-right-color: #DB095B;
 }
 #articlesquare{
 margin-top: 15%;
-width: 570px;
-height:570px;
+width: 237.5px;
+height:237.5px;
 margin-left: 15%;
 }
 /* Animations */
@@ -21,10 +21,16 @@ margin-left: 15%;
 }
 
 @media screen and (min-width:1020px) {
-	
+	#articlesquare{
+	width: 303px;
+	height: 303px;
+	}
 }
 @media screen and (min-width:1270px) {
-
+	#articlesquare{
+	width: 380px;
+	height: 380px;
+	}
 }
 /* 720p */
 @media screen and (min-width:1350px) {
@@ -33,27 +39,41 @@ margin-left: 15%;
 	height: 407px;
 	}
 }
-}
 /* Macbook Air */
-@media screen and (min-width:1470px) {
-	
+@media screen and (min-width:1400px) {
+	#articlesquare{
+	width: 438px;
+	height: 438px;
+	}
 }
 @media screen and (min-width:1600px) {
-	
+	#articlesquare{
+	width: 475px;
+	height: 475px;
+	}
 }
 /* Most Popular Res */
 @media screen and (min-width:1900px) {
-	
-}
-@media screen and (min-width:1900px) {
-	
+	#articlesquare{
+	width: 570px;
+	height:570px;
+	}
 }
 @media screen and (min-width:2500px) {
-	
+	#articlesquare{
+	width: 766px;
+	height: 766px;
+	}
 }
 @media screen and (min-width:2800px) {
-	
+	#articlesquare{
+	width: 863px;
+	height: 863px;
+	}
 }
 @media screen and (min-width:3800px) {
-	
+	#articlesquare{
+	width: 1140px;
+	height: 1140px;
+	}
 }

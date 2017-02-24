@@ -18,11 +18,11 @@ h1{
 font-weight: 400;
 }
 #PageName{
-margin: 32% 105px 0 235px;
-font-size: 200px;
+margin: 32% 44px 0 98px;
+font-size: 83px;
 }
 .VerticalLine{
-border-right: 20px solid;
+border-right: 8px solid;
 height: 100%;
 position: absolute;
 }
@@ -30,12 +30,25 @@ position: absolute;
 margin-left: 49%;
 }
 @media screen and (min-width:1020px) {
+	#PageName{
+	margin: 32% 56px 0 125px;
+	font-size: 106px;
+	}
+	.VerticalLine{
+	border-right: 10px solid;
+	}
 }
 @media screen and (min-width:1270px) {
-	
+	#PageName{
+	margin: 32% 70px 0 156px;
+	font-size: 133px;
+	}
+	.VerticalLine{
+	border-right: 13px solid;
+	}
 }
 /* 720p */
-@media screen and (max-width:1380px) {
+@media screen and (min-width:1350px) {
 	#PageName{
 	margin: 32% 75px 0 168px;
 	font-size: 143px;
@@ -45,25 +58,58 @@ margin-left: 49%;
 	}
 }
 /* Macbook Air */
-@media screen and (min-width:1470px) {
-	
+@media screen and (min-width:1400px) {
+	#PageName{
+	margin: 32% 78px 0 176px;
+	font-size: 150px;
+	}
+	.VerticalLine{
+	border-right: 15px solid;
+	}	
 }
 @media screen and (min-width:1600px) {
-	
+	#PageName{
+	margin: 32% 87.5px 0 196px;
+	font-size: 166px;
+	}
+	.VerticalLine{
+	border-right: 17px solid;
+	}	
 }
 /* Most Popular Res */
 @media screen and (min-width:1900px) {
-	
-}
-@media screen and (min-width:1900px) {
-	
+	#PageName{
+	margin: 32% 105px 0 235px;
+	font-size: 200px;
+	}
+	.VerticalLine{
+	border-right: 20px solid;
+	}
 }
 @media screen and (min-width:2500px) {
-	
+	#PageName{
+	margin: 32% 140px 0 313px;
+	font-size: 266px;
+	}
+	.VerticalLine{
+	border-right: 26px solid;
+	}
 }
 @media screen and (min-width:2800px) {
-	
+	#PageName{
+	margin: 32% 159px 0 356px;
+	font-size: 303px;
+	}
+	.VerticalLine{
+	border-right: 30px solid;
+	}
 }
 @media screen and (min-width:3800px) {
-	
+	#PageName{
+	margin: 32% 210px 0 470px;
+	font-size: 400px;
+	}
+	.VerticalLine{
+	border-right: 40px solid;
+	}
 }
