@@ -29,3 +29,41 @@ position: absolute;
 .RightSideContainer{
 margin-left: 49%;
 }
+@media screen and (min-width:1020px) {
+}
+@media screen and (min-width:1270px) {
+	
+}
+/* 720p */
+@media screen and (max-width:1380px) {
+	#PageName{
+	margin: 32% 75px 0 168px;
+	font-size: 143px;
+	}
+	.VerticalLine{
+	border-right: 14px solid;
+	}
+}
+/* Macbook Air */
+@media screen and (min-width:1470px) {
+	
+}
+@media screen and (min-width:1600px) {
+	
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	
+}
+@media screen and (min-width:1900px) {
+	
+}
+@media screen and (min-width:2500px) {
+	
+}
+@media screen and (min-width:2800px) {
+	
+}
+@media screen and (min-width:3800px) {
+	
+}

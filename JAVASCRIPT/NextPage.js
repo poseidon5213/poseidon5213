@@ -42,4 +42,9 @@ console.log(z);
 		window.location = pages[y];
 		console.log(window.location);
    		}
+   		else if(e.keyCode == "38"){
+   		CheckUrl();
+		window.location = pages[6];
+		console.log(window.location);
+   		}
 	}
