@@ -27,7 +27,7 @@ margin-left: 15%;
 
 }
 /* 720p */
-@media screen and (min-width:1350px) {
+@media screen and (max-width:1350px) {
 	#articlesquare{
 	width: 407px;
 	height: 407px;
