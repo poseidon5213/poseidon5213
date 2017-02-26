@@ -3,30 +3,30 @@ background: #03022a;
 }
 #PageName{
 color: #18ffff;
-font-size: 180px;
-margin-left: 50px;
-margin-right: 50px;
+font-size: 75px;
+margin-left: 21px;
+margin-right: 21px;
 }
 .VerticalLine{
 color: #18ffff;
 }
 #facebook{
-width: 200px;
-height: 200px;
+width: 83px;
+height: 83px;
 }
 #medium, #twitter, #email{
-width: 180px;
-height: 180px;
+width: 75px;
+height: 75px;
 }
 #twitter{
-margin-top: 100px;
+margin-top: 42px;
 margin-left: 35%;
 margin-bottom: 8%;
 }
 
 #googleplus {
-width: 200px;
-height: 200px;
+width: 83px;
+height: 83px;
 margin-left: 5%;
 }
 .RightSideContainer{
@@ -41,4 +41,205 @@ margin-left: 50%;
 }
 #email{
 margin-left: 45%;
+}
+@media screen and (min-width:1020px) {
+	#PageName{
+	font-size: 96px;
+	margin-left: 27px;
+	margin-right: 27px;
+	}
+	#facebook{
+	width: 106px;
+	height: 106px;
+	}
+	#medium, #twitter, #email{
+	width: 96px;
+	height: 96px;
+	}
+	#twitter{
+	margin-top: 53px;
+	}
+	#googleplus {
+	width: 106px;
+	height: 106px;
+	}
+}
+@media screen and (min-width:1270px) {
+	#PageName{
+	font-size: 120px;
+	margin-left: 33px;
+	margin-right: 33px;
+	}
+	#facebook{
+	width: 133px;
+	height: 133px;
+	}
+	#medium, #twitter, #email{
+	width: 120px;
+	height: 120px;
+	}
+	#twitter{
+	margin-top: 67px;
+	}
+	#googleplus {
+	width: 133px;
+	height: 133px;
+	}
+}
+/* 720p */
+@media screen and (min-width:1350px) {
+	#PageName{
+	font-size: 129px;
+	margin-left: 36px;
+	margin-right: 36px;
+	}
+	#facebook{
+	width: 143px;
+	height: 143px;
+	}
+	#medium, #twitter, #email{
+	width: 129px;
+	height: 129px;
+	}
+	#twitter{
+	margin-top: 71px;
+	}
+	#googleplus {
+	width: 143px;
+	height: 143px;
+	}
+}
+/* Macbook Air */
+@media screen and (min-width:1400px) {
+	#PageName{
+	font-size: 135px;
+	margin-left: 38px;
+	margin-right: 38px;
+	}
+	#facebook{
+	width: 150px;
+	height: 150px;
+	}
+	#medium, #twitter, #email{
+	width: 135px;
+	height: 135px;
+	}
+	#twitter{
+	margin-top: 75px;
+	}
+	#googleplus {
+	width: 150px;
+	height: 150px;
+	}	
+}
+@media screen and (min-width:1600px) {
+	#PageName{
+	font-size: 150px;
+	margin-left: 42px;
+	margin-right: 42px;
+	}
+	#facebook{
+	width: 167px;
+	height: 167px;
+	}
+	#medium, #twitter, #email{
+	width: 150px;
+	height: 150px;
+	}
+	#twitter{
+	margin-top: 83px;
+	}
+	#googleplus {
+	width: 167px;
+	height: 167px;
+	}
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	#PageName{
+	font-size: 180px;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+	#facebook{
+	width: 200px;
+	height: 200px;
+	}
+	#medium, #twitter, #email{
+	width: 180px;
+	height: 180px;
+	}
+	#twitter{
+	margin-top: 100px;
+	}
+	#googleplus {
+	width: 200px;
+	height: 200px;
+	}
+}
+@media screen and (min-width:2500px) {
+	#PageName{
+	font-size: 240px;
+	margin-left: 67px;
+	margin-right: 67px;
+	}
+	#facebook{
+	width: 267px;
+	height: 267px;
+	}
+	#medium, #twitter, #email{
+	width: 240px;
+	height: 240px;
+	}
+	#twitter{
+	margin-top: 133px;
+	}
+	#googleplus {
+	width: 267px;
+	height: 267px;
+	}
+}
+@media screen and (min-width:2800px) {
+	#PageName{
+	font-size: 273px;
+	margin-left: 76px;
+	margin-right: 76px;
+	}
+	#facebook{
+	width: 303px;
+	height: 303px;
+	}
+	#medium, #twitter, #email{
+	width: 273px;
+	height: 273px;
+	}
+	#twitter{
+	margin-top: 152px;
+	}
+	#googleplus {
+	width: 303px;
+	height: 303px;
+	}
+}
+@media screen and (min-width:3800px) {
+	#PageName{
+	font-size: 360px;
+	margin-left: 100px;
+	margin-right: 100px;
+	}
+	#facebook{
+	width: 400px;
+	height: 400px;
+	}
+	#medium, #twitter, #email{
+	width: 360px;
+	height: 360px;
+	}
+	#twitter{
+	margin-top: 200px;
+	}
+	#googleplus {
+	width: 400px;
+	height: 400px;
+	}
 }

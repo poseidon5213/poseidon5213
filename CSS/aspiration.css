@@ -5,7 +5,7 @@ background: #011627;
 color: #f71735;
 }
 #PageName{
-margin: 27% 50px 0 75px;
+margin: 27% 21px 0 31px;
 }
 .RightSideContainer{
 margin-left: 55%;
@@ -18,12 +18,12 @@ position: absolute;
 padding-right: 1%;
 }
 .pin h1{
-font-size: 55px;
+font-size: 23px;
 margin-top: 0;
 text-align: center;
 }
 .pin h3{
-font-size: 35px;
+font-size: 15px;
 }
 #pin1{
 background: #FFE85A; 
@@ -42,6 +42,144 @@ top: 50%;
 fill: #f71735;
 margin-left: 40%;
 margin-top: 3%;
-width: 275px;
-height: 300px;
+width: 114px;
+height: 125px;
+}
+@media screen and (min-width:1020px) {
+	#PageName{
+	margin: 27% 27px 0 40px;
+	}
+	.pin h1{
+	font-size: 29px;
+	}
+	.pin h3{
+	font-size: 19px;
+	}
+	.SVGContainer{
+	width: 146px;
+	height: 160px;
+	}
+}
+@media screen and (min-width:1270px) {
+	#PageName{
+	margin: 27% 33px 0 50px;
+	}
+	.pin h1{
+	font-size: 37px;
+	}
+	.pin h3{
+	font-size: 23px;
+	}
+	.SVGContainer{
+	width: 183px;
+	height: 200px;
+	}
+}
+/* 720p */
+@media screen and (min-width:1350px) {
+	#PageName{
+	margin: 27% 36px 0 54px;
+	}
+	.pin h1{
+	font-size: 39px;
+	}
+	.pin h3{
+	font-size: 25px;
+	}
+	.SVGContainer{
+	width: 196px;
+	height: 214px;
+	}
+}
+/* Macbook Air */
+@media screen and (min-width:1400px) {
+	#PageName{
+	margin: 27% 38px 0 56px;
+	}
+	.pin h1{
+	font-size: 41px;
+	}
+	.pin h3{
+	font-size: 26px;
+	}
+	.SVGContainer{
+	width: 206px;
+	height: 225px;
+	}	
+}
+@media screen and (min-width:1600px) {
+	#PageName{
+	margin: 27% 42px 0 62.5px;
+	}
+	.pin h1{
+	font-size: 46px;
+	}
+	.pin h3{
+	font-size: 29px;
+	}
+	.SVGContainer{
+	width: 229px;
+	height: 250px;
+	}
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	#PageName{
+	margin: 27% 50px 0 75px;
+	}
+	.pin h1{
+	font-size: 55px;
+	}
+	.pin h3{
+	font-size: 35px;
+	}
+	.SVGContainer{
+	width: 275px;
+	height: 300px;
+	}
+}
+@media screen and (min-width:2500px) {
+	#PageName{
+	margin: 27% 66px 0 100px;
+	}
+	.pin h1{
+	font-size: 73px;
+	}
+	.pin h3{
+	font-size: 46px;
+	}
+	.SVGContainer{
+	width: 367px;
+	height: 400px;
+	}
+}
+@media screen and (min-width:2800px) {
+	#PageName{
+	margin: 27% 76px 0 114px;
+	}
+	.pin h1{
+	font-size: 83px;
+	}
+	.pin h3{
+	font-size: 53px;
+	}
+	.SVGContainer{
+	width: 416px;
+	height: 454px;
+	}
+}
+@media screen and (min-width:3800px) {
+	#PageName{
+	margin: 27% 100px 0 150px;
+	}
+	.pin h1{
+	font-size: 110px;
+	}
+	.pin h3{
+	font-size: 70px;
+	}
+	.SVGContainer{
+	width: 550px;
+	height: 600px;
+	}
 }

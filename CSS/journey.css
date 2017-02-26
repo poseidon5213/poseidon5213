@@ -7,26 +7,32 @@ color: #FFFF00;
 .VerticalLine{
 border-right-color: #FFFF00;
 }
+#PageName{
+margin-top: 27%;
+}
 .FormContainer {
-margin-left: 200px;
-margin-top: 240px;
+margin-left: 83px;
+margin-top: 100px;
 }
 #year{
 color: #FFFF00;
-font-size: 200px;
-margin-left: 60%;
-margin-top: 15.7%;
+margin-left: 35%;
+font-size: 83px;
 }
 #YearInput{
 background-color: transparent;
 border-top: none;
 border-left: none;
 border-right: none;
-border-bottom-width: 5px;
+border-bottom-width: 2px;
 color: #FFFF00;
-font-size: 60px;
+font-size: 25px;
 font-weight: 300;
-width: 600px;
+width: 250px;
+}
+.RightSideContainer{
+margin-top: 13.5%;
+margin-left: 42%;
 }
 /* Styling for the Form (Chrome)  */
 ::-webkit-input-placeholder{
@@ -41,8 +47,163 @@ text-align: center;
 text-align: center;
 }
 #YearInfo{
-font-size: 70px;
-margin-left: 42%;
+font-size: 29px;
 font-weight: 300;
 text-align: center;
+}
+@media screen and (min-width:1020px) {
+	.FormContainer {
+	margin-left: 106px;
+	margin-top: 128px;
+	}
+	#year{
+	font-size: 106px;	
+	}
+	#YearInput{
+	border-bottom-width: 3px;
+	font-size: 32px;
+	width: 319px;
+	}
+	#YearInfo{
+	font-size: 37px;
+	}
+}
+@media screen and (min-width:1270px) {
+	.FormContainer {
+	margin-left: 133px;
+	margin-top: 160px;
+	}
+	#year{
+	font-size: 133px;	
+	}
+	#YearInput{
+	border-bottom-width: 3px;
+	font-size: 40px;
+	width: 400px;
+	}
+	#YearInfo{
+	font-size: 47px;
+	}
+}
+/* 720p */
+@media screen and (min-width:1350px) {
+	.FormContainer {
+	margin-left: 143px;
+	margin-top: 171px;
+	}
+	#year{
+	font-size: 143px;	
+	}
+	#YearInput{
+	border-bottom-width: 4px;
+	font-size: 43px;
+	width: 429px;
+	}
+	#YearInfo{
+	font-size: 50px;
+	}
+}
+/* Macbook Air */
+@media screen and (min-width:1400px) {
+	.FormContainer {
+	margin-left: 150px;
+	margin-top: 180px;
+	}
+	#year{
+	font-size: 150px;	
+	}
+	#YearInput{
+	border-bottom-width: 4px;
+	font-size: 45px;
+	width: 451px;
+	}
+	#YearInfo{
+	font-size: 53px;
+	}	
+}
+@media screen and (min-width:1600px) {
+	.FormContainer {
+	margin-left: 167px;
+	margin-top: 200px;
+	}
+	#year{
+	font-size: 167px;	
+	}
+	#YearInput{
+	border-bottom-width: 4px;
+	font-size: 50px;
+	width: 500px;
+	}
+	#YearInfo{
+	font-size: 58px;
+	}
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	.FormContainer {
+	margin-left: 200px;
+	margin-top: 240px;
+	}
+	#year{
+	font-size: 200px;	
+	}
+	#YearInput{
+	border-bottom-width: 5px;
+	font-size: 60px;
+	width: 600px;
+	}
+	#YearInfo{
+	font-size: 70px;
+	}
+}
+@media screen and (min-width:2500px) {
+	.FormContainer {
+	margin-left: 267px;
+	margin-top: 320px;
+	}
+	#year{
+	font-size: 267px;	
+	}
+	#YearInput{
+	border-bottom-width: 7px;
+	font-size: 80px;
+	width: 800px;
+	}
+	#YearInfo{
+	font-size: 93px;
+	}
+}
+@media screen and (min-width:2800px) {
+	.FormContainer {
+	margin-left: 303px;
+	margin-top: 364px;
+	}
+	#year{
+	font-size: 303px;	
+	}
+	#YearInput{
+	border-bottom-width: 8px;
+	font-size: 91px;
+	width: 909px;
+	}
+	#YearInfo{
+	font-size: 106px;
+	}
+}
+@media screen and (min-width:3800px) {
+	.FormContainer {
+	margin-left: 400px;
+	margin-top: 480px;
+	}
+	#year{
+	font-size: 400px;	
+	}
+	#YearInput{
+	border-bottom-width: 10px;
+	font-size: 120px;
+	width: 1200px;
+	}
+	#YearInfo{
+	font-size: 140px;
+	}
 }

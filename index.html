@@ -10,35 +10,45 @@
 <meta name="viewport" content="width=device-width initial-scale=1">
 <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
 <link rel="stylesheet" type="text/css" href="CSS/main.css">
+<link id="MobileCSS">
+	<script>
+		if (screen.height > screen.width) {
+			console.log("Mobile Detected");
+			var MobileCSS = document.getElementById('MobileCSS');
+			MobileCSS.setAttribute("rel","stylesheet");
+			MobileCSS.setAttribute("type","text/css");
+			MobileCSS.setAttribute("href","CSS/MOBILE/mainM.css");
+			} 
+	</script>
 	<title> Tajairi</title>
 </head>
 <body>
 	<a href="HTML/thesis.html">	
-	<span id="T">T</span>
+	<h1 id="T">T</h1>
 	</a>
 	
 	<a href="HTML/aspiration.html">
-	<span id="A">A</span>
+	<h1 id="A">A</h1>
 	</a>
 
 	<a href="HTML/journey.html">
-	<span href="HTML/journey.html" id="J">J</span>
+	<h1 id="J">J</h1>
 	</a>
 
 	<a href="HTML/application.html">		
-	<span id="A2">A</span>
+	<h1 id="A2">A</h1>
 	</a>	
 
 	<a href="HTML/information.html">		
-	<span id="I">I</span>
+	<h1 id="I">I</h1>
 	</a>	
 
 	<a href="HTML/repetoire.html">	
-	<span id="R">R</span>
+	<h1 id="R">R</h1>
 	</a>	
 	<!-- Just Adding a Comment -->
 	<a href="https://goo.gl/slfMco">
-	<span id="I2">I</span>
+	<h1 id="I2">I</h1>
 	</a>
 </body>
 </html>
