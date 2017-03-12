@@ -12,19 +12,10 @@
 <link rel="stylesheet" type="text/css" href="CSS/fonts.css">
 <link rel="stylesheet" type="text/css" href="CSS/main.css">
 <link id="MobileCSS">
-	<script>
-		if (screen.height < 800) {
-			console.log("Mobile Detected");
-			var MobileCSS = document.getElementById('MobileCSS');
-			MobileCSS.setAttribute("rel","stylesheet");
-			MobileCSS.setAttribute("type","text/css");
-			MobileCSS.setAttribute("href","CSS/MOBILE/mainM.css");
-			} 
-	</script>
 	<title> Tajairi</title>
 </head>
 <body>
-	<a href="HTML/thesis.html">	
+	<a id=ThesisLink href="HTML/thesis.html">	
 	<h1 id="T">T</h1>
 	</a>
 	
@@ -53,3 +44,14 @@
 	</a>
 </body>
 </html>
+<script>
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			console.log("Mobile Detected");
+			var MobileCSS = document.getElementById('MobileCSS');
+			var ThesisLink = document.getElementById('ThesisLink');
+			MobileCSS.setAttribute("rel","stylesheet");
+			MobileCSS.setAttribute("type","text/css");
+			MobileCSS.setAttribute("href","CSS/MOBILE/mainM.css");
+			ThesisLink.href = "HTML/thesisM.html";
+			} 
+	</script>
