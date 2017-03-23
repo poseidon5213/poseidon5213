@@ -11,6 +11,8 @@ function loadV(){
    var c5 = document.getElementById('c5'); 
    c1.addEventListener('click', c1clicked);
    c2.addEventListener('click', c2clicked);
+   c3.addEventListener('click', c3clicked);
+   c4.addEventListener('click', c4clicked);
    console.log('page loaded');
 }
 function c1clicked() {
@@ -24,6 +26,8 @@ function c1clicked() {
 									"of art of the same name. ";
 	c1.className  ="circle CircleActive";
 	c2.className  ="circle CircleInactive";
+	c3.className  ="circle CircleInactive";
+	c4.className  ="circle CircleInactive";
 	console.log('Project 1 Loaded');
 }
 function c2clicked() {
@@ -34,6 +38,32 @@ function c2clicked() {
 	ProjectDescription.innerHTML = "My first product while learning how to use Unity and Csharp";
 	c2.className  ="circle CircleActive";
 	c1.className  ="circle CircleInactive";
+	c3.className  ="circle CircleInactive";
+	c4.className  ="circle CircleInactive";
 	console.log('Project 2 Loaded');
+}
+function c3clicked() {
+	pich1.innerHTML = "School";
+	pich2.innerHTML = "Sole-Developer";
+	ProjectTitle.innerHTML = "Challenge1";
+	ProjectImage.src = "../IMAGES/blink.gif";
+	ProjectDescription.innerHTML = "Using A Raspberry Pi to get a led to blink";
+	c3.className  ="circle CircleActive";
+	c2.className  ="circle CircleInactive";
+	c1.className  ="circle CircleInactive";
+	c4.className  ="circle CircleInactive";
+	console.log('Project 3 Loaded');
+}
+function c4clicked() {
+	pich1.innerHTML = "School";
+	pich2.innerHTML = "Sole-Developer";
+	ProjectTitle.innerHTML = "Challenge2/3"; 
+	ProjectImage.src = "../IMAGES/challenge2-3.png";
+	ProjectDescription.innerHTML = "Using A Raspberry Pi to get a led to follow a pattern and accept user input <br> <a target=none href=https:youtu.be/mnxh4EyB7_A style= color:#FE6F43>View Demonstration  </a> <br> <a target=none href=../PYTHON/jt.py style= color:#FE6F43>View Code </a>";
+	c4.className  ="circle CircleActive";
+	c3.className  ="circle CircleInactive";
+	c2.className  ="circle CircleInactive";
+	c1.className  ="circle CircleInactive";
+	console.log('Project 4 Loaded');
 }
 //To Change The background color of the bubble change the selected circle to the class .circle
