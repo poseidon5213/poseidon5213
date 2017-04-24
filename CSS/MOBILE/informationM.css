@@ -6,6 +6,7 @@
 	#facebook{
 	width: 200px;
 	height: 200px;
+	margin-left: 5%;
 	}
 	#medium, #twitter, #email{
 	width: 180px;
@@ -13,11 +14,14 @@
 	}
 	#twitter{
 	margin-top: 100px;
+	margin-left: 40%;
 	}
 	#googleplus {
 	width: 200px;
 	height: 200px;
+	margin-left: 10%;
 	}
+
 .row1{
 margin-top: 40%;
 }
