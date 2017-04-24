@@ -19,23 +19,23 @@
 	<h1 id="T">T</h1>
 	</a>
 	
-	<a href="HTML/aspiration.html">
+	<a id="AspirationLink" href="HTML/aspiration.html">
 	<h1 id="A">A</h1>
 	</a>
 
-	<a href="HTML/journey.html">
+	<a id="JourneyLink" href="HTML/journey.html">
 	<h1 id="J">J</h1>
 	</a>
 
-	<a href="HTML/application.html">		
+	<a id="ApplicationLink" href="HTML/application.html">		
 	<h1 id="A2">A</h1>
 	</a>	
 
-	<a href="HTML/information.html">		
+	<a id="InformationLink" href="HTML/information.html">		
 	<h1 id="I">I</h1>
 	</a>	
 
-	<a href="HTML/repetoire.html">	
+	<a id="RepetoireLink"  href="HTML/repetoire.html">	
 	<h1 id="R">R</h1>
 	</a>	
 	<!-- Just Adding a Comment -->
@@ -49,9 +49,19 @@
 			console.log("Mobile Detected");
 			var MobileCSS = document.getElementById('MobileCSS');
 			var ThesisLink = document.getElementById('ThesisLink');
+			var ApplicationLink = document.getElementById('ApplicationLink');
+			var JourneyLink = document.getElementById('JourneyLink');
+			var AspirationLink = document.getElementById('AspirationLink');
+			var InformationLink = document.getElementById('InformationLink');
+			var RepetoireLink = document.getElementById('RepetoireLink');
 			MobileCSS.setAttribute("rel","stylesheet");
 			MobileCSS.setAttribute("type","text/css");
 			MobileCSS.setAttribute("href","CSS/MOBILE/mainM.css");
 			ThesisLink.href = "HTML/thesisM.html";
+			AspirationLink.href = "HTML/aspirationM.html";
+			JourneyLink.href = "HTML/applicationM.html";
+			ApplicationLink.href = "HTML/applicationM.html";
+			InformationLink.href = "HTML/informationM.html";
+			RepetoireLink.href = "HTML/repetoireM.html";
 			} 
 	</script>
