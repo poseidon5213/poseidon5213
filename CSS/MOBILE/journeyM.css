@@ -1,0 +1,18 @@
+.VerticalLine{
+border-color: #FFFF00;
+}
+.FormContainer {
+margin-left: 200px;
+margin-top: 240px;
+}
+#year{
+font-size: 200px;	
+}
+#YearInput{
+border-bottom-width: 5px;
+font-size: 60px;
+width: 600px;
+}
+#YearInfo{
+font-size: 70px;
+}

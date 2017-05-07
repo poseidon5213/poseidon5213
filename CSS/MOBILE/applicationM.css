@@ -1,6 +1,9 @@
 .VerticalLine{
 border-color: #00E676;;
 }
+body{
+overflow: scroll;
+}
 #PageName{
 margin-bottom: 20%;
 }
