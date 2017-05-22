@@ -52,25 +52,35 @@ height: 0;
 border-style: solid;
 border-width: 50px 0 50px 108px;
 border-color: transparent transparent transparent #f717a5;
-bottom: 17.5%;
-right: 40%;
+bottom: 19.5%;
+right: 39%;
 }
+.circle:hover{
+-webkit-animation: 2s BorderCircle 1 forwards;
+}
+
+@-webkit-keyframes BorderCircle{
+30% {border-left-color: white;}
+100% {transform: rotate(720deg); border-color : white;}
+}
+
  .TriangleAnimation{
--webkit-animation: 0.5s PlayButton 1 forwards ;
+-webkit-animation: 0.5s PlayButton 1 both;
 }
 
 .circle:hover{
 -webkit-animation: 2s BorderCircle 1 forwards;
 }
-/* Animations */
+ /* Animations */
 @-webkit-keyframes PlayButton {
 50% { transform: rotateY(90deg);}
 100% {background: #F717A5; right: 41.75%;}
 } 
-@-webkit-keyframes BorderCircle{
-30% {border-left-color: white;}
-100% {transform: rotate(720deg); border-color : white;}
-}
-@-webkit-keyframes MusicalBars{
+/*@-webkit-keyframes MusicalBars{
 10% {}
+} */
+.spotifycontainer{
+margin-top: 10%;
+margin-left:35%;
+display: none;
 }
