@@ -1,6 +1,6 @@
-	var Spotify = document.getElementById('Spotify');
+	var SoundCloud = document.getElementById('SoundCloud');
 	var PageName = document.getElementById('PageName');
-	var tri =  document.getElementById('tri');
+	var Tri =  document.getElementById('tri');
 	/*
 	var JProgress = document.getElementById('JProgress');
 	var JSProgress = document.getElementById('JSProgress');
@@ -9,10 +9,10 @@
 	var PhProgress = document.getElementById('PhProgress')
 	*/
 function progressbarchanger() {
-	tri.className = "triangle TriangleAnimation";
-	Spotify.style.display = "block";
-	PageName.style.marginTop  = "5.6%";
-	tri.setAttribute( "onClick", "progressbarchangerstop()" );
+	Tri.className = "triangle TriangleAnimation";
+	SoundCloud.style.display = "block";
+	PageName.style.marginTop  = "8.5%";
+	Tri.setAttribute( "onclick", "progressbarchangerreverse()");
 	/*JProgress.value = Math.floor(Math.random() * 100);
 	JSProgress.value = Math.floor(Math.random() * 100);
 	HCProgress.value = Math.floor(Math.random() * 100);
@@ -20,9 +20,9 @@ function progressbarchanger() {
 	PhProgress.value = Math.floor(Math.random() * 100);
 	*/
 	}
-function progressbarchangerstop() {
-	tri.className = "triangle";
-	Spotify.style.display = "none";
+function progressbarchangerreverse() {
+	tri.className = "triangle TriangleAnimationReverse";
+	SoundCloud.style.display = "none";
 	PageName.style.marginTop = "27%";
-	tri.setAttribute( "onClick", "progressbarchanger()" );
+	tri.setAttribute( "onclick", "progressbarchanger()" );
 }

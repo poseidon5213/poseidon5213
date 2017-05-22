@@ -5,30 +5,30 @@ background-color: #120127;
 color:#F717A5;
 }
 #PageName{
-margin-left: 150px;
-margin-right: 70px;
+margin-left: 63px;
+margin-right: 29px;
 margin-top: 27%;
 }
 .VerticalLine{
 border-right-color: #F717A5;
 }
 progress{
-margin: 90px 0 50px 56%;
+margin: 38px 0 21px 56%;
 -webkit-appearance: none;
 border: none;
 }
 progress::-webkit-progress-bar{
 border: 10px solid #F717A5;
 background: #120127;
-height: 100px;
-width: 425px;
+height: 42px;
+width: 177px;
 }
 progress::-webkit-progress-value {
 background: white;
 }
 .ProgressText{
 color: white;
-font-size: 75px;
+font-size: 31px;
 margin-left: 15%;
 margin-top: 4.5%;
 position: absolute;
@@ -39,21 +39,21 @@ margin-left: 40%;
 }
 .circle{
 border: 3px #F717A5 solid;
-width: 240px;
-height: 240px;
--moz-border-radius: 60px;
--webkit-border-radius: 60px;
-border-radius: 140px;
+width: 100px;
+height: 100px;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 58px;
 }
 .triangle{
 position: absolute;
 width: 0;
 height: 0;
 border-style: solid;
-border-width: 50px 0 50px 108px;
+border-width: 21px 0 21px 45px;
 border-color: transparent transparent transparent #f717a5;
-bottom: 19.5%;
-right: 39%;
+right: 150px;
+bottom: 77px;
 }
 .circle:hover{
 -webkit-animation: 2s BorderCircle 1 forwards;
@@ -67,7 +67,6 @@ right: 39%;
  .TriangleAnimation{
 -webkit-animation: 0.5s PlayButton 1 both;
 }
-
 .circle:hover{
 -webkit-animation: 2s BorderCircle 1 forwards;
 }
@@ -79,8 +78,269 @@ right: 39%;
 /*@-webkit-keyframes MusicalBars{
 10% {}
 } */
-.spotifycontainer{
-margin-top: 10%;
-margin-left:35%;
+.SoundCloudContainer{
 display: none;
+}
+@media screen and (min-width:1020px) {
+	#PageName{
+	margin-left: 80px;
+	margin-right: 37px;
+	}
+	progress{
+	margin: 48px 0 27px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 53px;
+	width: 226px;
+	}
+	.ProgressText{
+	font-size: 40px;
+	}
+	.circle{
+	width: 128px;
+	height: 128px;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 74px;
+	}
+	.triangle{
+	border-width: 27px 0 27px 57px;
+	bottom: 98px;
+	right: 191px;
+	}
+}
+@media screen and (min-width:1270px) {
+	#PageName{
+	margin-left: 100px;
+	margin-right: 47px;
+	}
+	progress{
+	margin: 60px 0 33px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 67px;
+	width: 283px;
+	}
+	.ProgressText{
+	font-size: 50px;
+	}
+	.circle{
+	width: 160px;
+	height: 160px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 93px;
+	}
+	.triangle{
+	border-width: 33px 0 33px 72px;
+	bottom: 123px;
+	right: 240px;
+	}
+
+}
+/* 720p */
+@media screen and (min-width:1350px) {
+	#PageName{
+	margin-left: 107px;
+	margin-right: 50px;
+	}
+	progress{
+	margin: 64px 0 36px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 71px;
+	width: 304px;
+	}
+	.ProgressText{
+	font-size: 54px;
+	}
+	.circle{
+	width: 171px;
+	height: 171px;
+	-moz-border-radius: 43px;
+	-webkit-border-radius: 43px;
+	border-radius: 100px;
+	}
+	.triangle{
+	border-width: 36px 0 36px 77px;
+	bottom: 132px;
+	right: 257px;
+	}
+
+}
+/* Macbook Air */
+@media screen and (min-width:1400px) {
+	#PageName{
+	margin-left: 113px;
+	margin-right: 53px;
+	}
+	progress{
+	margin: 68px 0 38px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 75px;
+	width: 320px;
+	}
+	.ProgressText{
+	font-size: 56px;
+	}
+	.circle{
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 105px;
+	}
+	.triangle{
+	border-width: 38px 0 38px 81px;
+	bottom: 139px;
+	right: 271px;
+	}
+
+}
+@media screen and (min-width:1600px) {
+	#PageName{
+	margin-left: 125px;
+	margin-right: 58px;
+	}
+	progress{
+	margin: 75px 0 42px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 83px;
+	width: 354px;
+	}
+	.ProgressText{
+	font-size: 63px;
+	}
+	.circle{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 117px;
+	}
+	.triangle{
+	border-width: 42px 0 42px 90px;
+	bottom: 154px;
+	right: 300px;
+	}
+
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	#PageName{
+	margin-left: 150px;
+	margin-right: 70px;
+	}
+	progress{
+	margin: 90px 0 50px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 100px;
+	width: 425px;
+	}
+	.ProgressText{
+	font-size: 75px;
+	}
+	.circle{
+	width: 240px;
+	height: 240px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 140px;
+	}
+	.triangle{
+	border-width: 50px 0 50px 108px;
+	bottom: 185px;
+	right: 360px;
+	}
+
+}
+@media screen and (min-width:2500px) {
+	#PageName{
+	margin-left: 200px;
+	margin-right: 93px;
+	}
+	progress{
+	margin: 120px 0 67px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 133px;
+	width: 567px;
+	}
+	.ProgressText{
+	font-size: 100px;
+	}
+	.circle{
+	width: 320px;
+	height: 320px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 187px;
+	}
+	.triangle{
+	border-width: 67px 0 67px 144px;
+	bottom: 247px;
+	right: 480px;
+	}
+
+}
+@media screen and (min-width:2800px) {
+	#PageName{
+	margin-left: 227px;
+	margin-right: 106px;
+	}
+	progress{
+	margin: 136px 0 76px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 152px;
+	width: 644px;
+	}
+	.ProgressText{
+	font-size: 114px;
+	}
+	.circle{
+	width: 364px;
+	height: 364px;
+	-moz-border-radius: 91px;
+	-webkit-border-radius: 91px;
+	border-radius: 212px;
+	}
+	.triangle{
+	border-width: 76px 0 76px 164px;
+	bottom: 280px;
+	right: 545px;
+	}
+
+}
+@media screen and (min-width:3800px) {
+	#PageName{
+	margin-left: 300px;
+	margin-right: 140px;
+	}
+	progress{
+	margin: 180px 0 100px 56%;
+	}
+	progress::-webkit-progress-bar{
+	height: 200px;
+	width: 850px;
+	}
+	.ProgressText{
+	font-size: 150px;
+	}
+	.circle{
+	width: 480px;
+	height: 480px;
+	-moz-border-radius: 120px;
+	-webkit-border-radius: 120px;
+	border-radius: 280px;
+	}
+	.triangle{
+	border-width: 100px 0 100px 216px;
+	bottom: 370px;
+	right: 720px;
+	}
+
 }
