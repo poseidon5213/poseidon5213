@@ -4,9 +4,11 @@ border-color: #F717A5;
 #PageName{
 	margin-left: 125px;
 	margin-right: 58px;
+	margin-top: 15%;
+	margin-bottom: 5%;
 	}
 	progress{
-	margin: 75px 0 42px 34%;
+	margin: 75px 0 42px 25%;
 	}
 	progress::-webkit-progress-bar{
 	height: 83px;
@@ -14,6 +16,8 @@ border-color: #F717A5;
 	}
 	.ProgressText{
 	font-size: 63px;
+	margin-left: 26%;
+	margin-top: 7%;
 	}
 	.circle{
 	width: 200px;
