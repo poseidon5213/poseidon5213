@@ -1,3 +1,29 @@
 .VerticalLine{
-border-color: #00E676;;
+border-color: #F717A5;
 }
+#PageName{
+	margin-left: 125px;
+	margin-right: 58px;
+	}
+	progress{
+	margin: 75px 0 42px 34%;
+	}
+	progress::-webkit-progress-bar{
+	height: 83px;
+	width: 354px;
+	}
+	.ProgressText{
+	font-size: 63px;
+	}
+	.circle{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 117px;
+	}
+	.triangle{
+	border-width: 42px 0 42px 90px;
+	right: 420px;
+	margin-top: 11%;
+	}
