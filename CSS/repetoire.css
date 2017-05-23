@@ -35,7 +35,8 @@ position: absolute;
 }
 .shapes{
 margin-top: 5%;
-margin-left: 40%;	
+margin-left: 40%;
+position: relative;	
 }
 .circle{
 border: 3px #F717A5 solid;
@@ -53,7 +54,8 @@ border-style: solid;
 border-width: 21px 0 21px 45px;
 border-color: transparent transparent transparent #f717a5;
 right: 150px;
-bottom: 77px;
+top: 0px;
+margin-top: 13%;
 }
 .circle:hover{
 -webkit-animation: 2s BorderCircle 1 forwards;
@@ -73,7 +75,7 @@ bottom: 77px;
  /* Animations */
 @-webkit-keyframes PlayButton {
 50% { transform: rotateY(90deg);}
-100% {background: #F717A5; right: 41.75%;}
+100% {background: #F717A5;}
 } 
 /*@-webkit-keyframes MusicalBars{
 10% {}
@@ -105,7 +107,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 27px 0 27px 57px;
-	bottom: 98px;
 	right: 191px;
 	}
 }
@@ -133,7 +134,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 33px 0 33px 72px;
-	bottom: 123px;
 	right: 240px;
 	}
 
@@ -163,7 +163,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 36px 0 36px 77px;
-	bottom: 132px;
 	right: 257px;
 	}
 
@@ -193,7 +192,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 38px 0 38px 81px;
-	bottom: 139px;
 	right: 271px;
 	}
 
@@ -222,7 +220,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 42px 0 42px 90px;
-	bottom: 154px;
 	right: 300px;
 	}
 
@@ -252,7 +249,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 50px 0 50px 108px;
-	bottom: 185px;
 	right: 360px;
 	}
 
@@ -281,7 +277,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 67px 0 67px 144px;
-	bottom: 247px;
 	right: 480px;
 	}
 
@@ -310,7 +305,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 76px 0 76px 164px;
-	bottom: 280px;
 	right: 545px;
 	}
 
@@ -339,7 +333,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 100px 0 100px 216px;
-	bottom: 370px;
 	right: 720px;
 	}
 
