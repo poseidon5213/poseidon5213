@@ -13,6 +13,7 @@ function loadV(){
    c2.addEventListener('click', c2clicked);
    c3.addEventListener('click', c3clicked);
    c4.addEventListener('click', c4clicked);
+   c5.addEventListener('click', c5clicked);
    console.log('page loaded');
 }
 function c1clicked() {
@@ -28,6 +29,7 @@ function c1clicked() {
 	c2.className  ="circle CircleInactive";
 	c3.className  ="circle CircleInactive";
 	c4.className  ="circle CircleInactive";
+	c5.className  ="circle CircleInactive";
 	console.log('Project 1 Loaded');
 }
 function c2clicked() {
@@ -40,6 +42,7 @@ function c2clicked() {
 	c1.className  ="circle CircleInactive";
 	c3.className  ="circle CircleInactive";
 	c4.className  ="circle CircleInactive";
+	c5.className  ="circle CircleInactive";
 	console.log('Project 2 Loaded');
 }
 function c3clicked() {
@@ -52,6 +55,7 @@ function c3clicked() {
 	c2.className  ="circle CircleInactive";
 	c1.className  ="circle CircleInactive";
 	c4.className  ="circle CircleInactive";
+	c5.className  ="circle CircleInactive";
 	console.log('Project 3 Loaded');
 }
 function c4clicked() {
@@ -64,6 +68,20 @@ function c4clicked() {
 	c3.className  ="circle CircleInactive";
 	c2.className  ="circle CircleInactive";
 	c1.className  ="circle CircleInactive";
+	c5.className  ="circle CircleInactive";
 	console.log('Project 4 Loaded');
+}
+function c5clicked() {
+	pich1.innerHTML = "School";
+	pich2.innerHTML = "Sole-Developer";
+	ProjectTitle.innerHTML = "Los Automatons"; 
+	ProjectImage.src = "../IMAGES/losautomatons.png";
+	ProjectDescription.innerHTML = "My Senior Project on the dangers of manufacturing and automation";
+	c5.className  ="circle CircleActive";
+	c4.className  ="circle CircleInactive";
+	c3.className  ="circle CircleInactive";
+	c2.className  ="circle CircleInactive";
+	c1.className  ="circle CircleInactive";
+	console.log('Project 5 Loaded');
 }
 //To Change The background color of the bubble change the selected circle to the class .circle
