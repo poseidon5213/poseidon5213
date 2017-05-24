@@ -13,10 +13,13 @@ color: #18ffff;
 #facebook{
 width: 83px;
 height: 83px;
+z-index: 1000;
 }
+
 #medium, #twitter, #email{
 width: 75px;
 height: 75px;
+z-index: 1000;
 }
 #twitter{
 margin-top: 42px;
@@ -28,6 +31,7 @@ margin-bottom: 8%;
 width: 83px;
 height: 83px;
 margin-left: 5%;
+z-index: 1000;
 }
 .RightSideContainer{
 display: block;
