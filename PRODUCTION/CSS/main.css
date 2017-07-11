@@ -1,0 +1,128 @@
+html{
+background-color: black;
+font-family: 'Oswald';
+overflow: hidden;
+}
+body{
+margin: 0;
+height: 394px;
+}
+h1{
+color: white;
+display: inline-block;
+font-size: 62.5px;
+font-weight: 400;
+padding: 135px 43px 100% 43px;
+margin: 0;
+}
+a{
+text-decoration: none;
+}
+#T:hover{
+background-color: #1B1B3A;
+color: #DB095B;
+}
+#A:hover{
+background-color: #011627;
+color: #F71735;
+}
+#J:hover{
+background-color: #0B2027;
+color:#FFFF00;
+}
+#A2:hover{
+background-color: #240016;
+color:#00E676;
+}
+#I:hover{
+background-color: #03022A;
+color:#18FFFF;
+}
+#R:hover{
+background-color: #120127;
+color:#F717A5;
+} 
+@media screen and (min-width:1020px) {
+	body {
+	height: 505px;
+	}
+	h1 {
+	font-size: 80px;	
+	padding: 173px 54px 100% 54px;
+	}
+}
+@media screen and (min-width:1270px) {
+	body {
+	height: 631px;
+	}
+	h1 {
+	font-size: 100px;	
+	padding: 216px 68px 100% 68px;
+	}
+}
+/* 720p */
+@media screen and (min-width:1350px) {
+	body {
+	height: 676px;
+	}
+	h1 {
+	font-size: 107px;	
+	padding: 232px 73px 100% 73px;
+	}
+}
+/* Macbook Air */
+@media screen and (min-width:1470px) {
+	body {
+	height: 728px;
+	}
+	h1 {
+	font-size: 115px;	
+	padding: 250px 79px 100% 79px;
+	}
+}
+@media screen and (min-width:1600px) {
+	body {
+	height: 789px;
+	}
+	h1 {
+	font-size: 125px;	
+	padding: 271px 86px 100% 86px;
+	}
+}
+/* Most Popular Res */
+@media screen and (min-width:1900px) {
+	body {
+	height: 947px;
+	}
+	h1 {
+	font-size: 150px;	
+	padding: 325px 102.5px 100% 102.5px;
+	}
+}
+@media screen and (min-width:2500px) {
+	body {
+	height: 1262px;
+	}
+	h1 {
+	font-size: 200px;	
+	padding: 433px 137px 100% 137px;
+	}
+}
+@media screen and (min-width:2800px) {
+	body {
+	height: 1392px;
+	}
+	h1 {
+	font-size: 220px;	
+	padding: 478px 151px 100% 151px;
+	}
+}
+@media screen and (min-width:3800px) {
+	body {
+	height: 1894px;
+	}
+	h1 {
+	font-size: 300px;	
+	padding: 650px 206px 100% 206px;
+	}
+}

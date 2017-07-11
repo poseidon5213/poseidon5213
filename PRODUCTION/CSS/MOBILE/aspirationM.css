@@ -1,0 +1,26 @@
+#PageName{
+	margin: 10% 50px 0 75px;
+	}
+	.pin h1{
+	font-size: 55px;
+	}
+	.pin h3{
+	font-size: 35px;
+	}
+	.SVGContainer{
+	width: 275px;
+	height: 300px;
+	margin-bottom: 10%;
+	}
+#pin1{
+top: 55%;
+left: 7%; 
+}
+#pin2 {
+right: 5%;
+top: 65%;
+}
+#pin3 {
+left: 5%;
+top: 80%;
+}
