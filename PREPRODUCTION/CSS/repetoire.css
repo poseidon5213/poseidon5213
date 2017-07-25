@@ -53,7 +53,7 @@ height: 0;
 border-style: solid;
 border-width: 21px 0 21px 45px;
 border-color: transparent transparent transparent #f717a5;
-right: 150px;
+right: 65%; 
 top: 0px;
 margin-top: 13%;
 }
@@ -77,7 +77,7 @@ margin-top: 13%;
  /* Animations */
 @-webkit-keyframes PlayButton {
 50% { transform: rotateY(90deg);}
-100% {background: #F717A5;}
+100% {margin-right: 3%; background: #F717A5;}
 } 
 /*@-webkit-keyframes MusicalBars{
 10% {}
@@ -109,7 +109,7 @@ display: none;
 	}
 	.triangle{
 	border-width: 27px 0 27px 57px;
-	right: 191px;
+	
 	}
 }
 @media screen and (min-width:1270px) {
@@ -136,7 +136,7 @@ display: none;
 	}
 	.triangle{
 	border-width: 33px 0 33px 72px;
-	right: 240px;
+	
 	}
 
 }
@@ -165,7 +165,7 @@ display: none;
 	}
 	.triangle{
 	border-width: 36px 0 36px 77px;
-	right: 257px;
+	
 	}
 
 }
@@ -194,7 +194,7 @@ display: none;
 	}
 	.triangle{
 	border-width: 38px 0 38px 81px;
-	right: 271px;
+	
 	}
 
 }
@@ -222,7 +222,7 @@ display: none;
 	}
 	.triangle{
 	border-width: 42px 0 42px 90px;
-	right: 300px;
+	
 	}
 
 }
@@ -251,7 +251,6 @@ display: none;
 	}
 	.triangle{
 	border-width: 50px 0 50px 108px;
-	right: 360px;
 	}
 }
 @media screen and (min-width:2500px) {
