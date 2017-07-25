@@ -48,6 +48,10 @@ margin-left: 50%;
 #email{
 margin-left: 45%;
 }
+.NavBar{
+	margin-left: 33%;
+	}
+
 @media screen and (min-width:1020px) {
 	#PageName{
 	font-size: 96px;

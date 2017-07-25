@@ -60,7 +60,9 @@ margin-top: 13%;
 .circle:hover{
 -webkit-animation: 2s BorderCircle 1 forwards;
 }
-
+.NavBar{
+	margin-left: 38%;
+	}
 @-webkit-keyframes BorderCircle{
 30% {border-left-color: white;}
 100% {transform: rotate(720deg); border-color : white;}
