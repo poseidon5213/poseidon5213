@@ -127,6 +127,9 @@ cursor: pointer;
 	#c1{
 	margin-left: 80px;
 	}
+	.NavBar{
+	margin-left: 38%;
+	}
 }
 @media screen and (min-width:1270px) {
 	#PageName{

@@ -1,5 +1,5 @@
 #PageName{
-margin: 10% 0 29% 0;
+margin: 15% 0 29% 0;
 font-size: 190px;
 text-align: center;
 }
@@ -10,4 +10,9 @@ border-right: none;
 border-bottom: none;
 margin-bottom: 1%;
 width: 100%;
+}
+.NavBar{
+margin-left: 36%;
+font-size: 30px;
+letter-spacing: 15px;
 }

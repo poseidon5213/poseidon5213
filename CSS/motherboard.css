@@ -35,8 +35,8 @@ margin-left: 49%;
 }
 .NavBar{
 color: white;
-font-size: 20px;
-letter-spacing: 15px;
+font-size: 8px;
+letter-spacing: 6px;
 margin-left: 43%;
 }
 @media screen and (min-width:1020px) {
@@ -47,6 +47,10 @@ margin-left: 43%;
 	.VerticalLine{
 	border-right: 10px solid;
 	}
+	.NavBar{
+	font-size: 11px;
+	letter-spacing: 8px;
+	}
 }
 @media screen and (min-width:1270px) {
 	#PageName{
@@ -55,6 +59,10 @@ margin-left: 43%;
 	}
 	.VerticalLine{
 	border-right: 13px solid;
+	}
+	.NavBar{
+	font-size: 13px;
+	letter-spacing: 10px;
 	}
 }
 /* 720p */
@@ -66,6 +74,10 @@ margin-left: 43%;
 	.VerticalLine{
 	border-right: 14px solid;
 	}
+	.NavBar{
+	font-size: 14px;
+	letter-spacing: 11px;
+	}
 }
 /* Macbook Air */
 @media screen and (min-width:1400px) {
@@ -75,6 +87,10 @@ margin-left: 43%;
 	}
 	.VerticalLine{
 	border-right: 15px solid;
+	}
+	.NavBar{
+	font-size: 15px;
+	letter-spacing: 11px;
 	}	
 }
 @media screen and (min-width:1600px) {
@@ -84,7 +100,11 @@ margin-left: 43%;
 	}
 	.VerticalLine{
 	border-right: 17px solid;
-	}	
+	}
+	.NavBar{
+	font-size: 17px;
+	letter-spacing: 13px;
+	}		
 }
 /* Most Popular Res */
 @media screen and (min-width:1900px) {
@@ -95,6 +115,10 @@ margin-left: 43%;
 	.VerticalLine{
 	border-right: 20px solid;
 	}
+	.NavBar{
+	font-size: 20px;
+	letter-spacing: 15px;
+	}
 }
 @media screen and (min-width:2500px) {
 	#PageName{
@@ -103,6 +127,10 @@ margin-left: 43%;
 	}
 	.VerticalLine{
 	border-right: 26px solid;
+	}
+	.NavBar{
+	font-size: 27px;
+	letter-spacing: 20px;
 	}
 }
 @media screen and (min-width:2800px) {
@@ -113,6 +141,10 @@ margin-left: 43%;
 	.VerticalLine{
 	border-right: 30px solid;
 	}
+	.NavBar{
+	font-size: 30px;
+	letter-spacing: 23px;
+	}
 }
 @media screen and (min-width:3800px) {
 	#PageName{
@@ -121,5 +153,9 @@ margin-left: 43%;
 	}
 	.VerticalLine{
 	border-right: 40px solid;
+	}
+	.NavBar{
+	font-size: 40px;
+	letter-spacing: 30px;
 	}
 }

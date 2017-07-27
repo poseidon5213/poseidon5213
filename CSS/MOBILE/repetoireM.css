@@ -4,7 +4,7 @@ border-color: #F717A5;
 #PageName{
 	margin-left: 125px;
 	margin-right: 58px;
-	margin-top: 15%;
+	margin-top: 8%;
 	margin-bottom: 5%;
 	}
 	progress{
@@ -28,6 +28,9 @@ border-color: #F717A5;
 	}
 	.triangle{
 	border-width: 42px 0 42px 90px;
-	right: 420px;
+	right: 425px;
 	margin-top: 11%;
+	}
+	.shapes{
+	margin-bottom: 5%;
 	}
