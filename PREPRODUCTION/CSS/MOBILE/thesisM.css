@@ -5,12 +5,25 @@ background: #1B1B3A;
 #PageName{
 color: #DB095B;
 }
-#articlesquare{
-margin-top: 14%;
-margin-left: 20.5%;
-width: 570px;
-height: 570px;
+.CardHolder{
+margin-top: 40%;
+margin-left: 9%;
+}
+.card{
+width: 810px;
+height: 610px;	
+}
+#CardTitle{
+font-size: 70px;
+margin-bottom: 10px;
+}
+#CardMedia{
+height: 403px;
+}
+#CardDate{
+font-size: 40px;
 }
 .VerticalLine{
 border-color: #DB095B;
+pointer-events: none;
 }
