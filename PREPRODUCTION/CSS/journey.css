@@ -17,6 +17,8 @@ margin-top: 100px;
 #year{
 color: #FFFF00;
 margin-left: 35%;
+margin-top: 5%;
+margin-bottom: 0;
 font-size: 83px;
 }
 #YearInput{
@@ -31,8 +33,6 @@ font-weight: 300;
 width: 250px;
 }
 .RightSideContainer{
-margin-top: 13.5%;
-margin-left: 42%;
 }
 /* Styling for the Form (Chrome)  */
 ::-webkit-input-placeholder{
